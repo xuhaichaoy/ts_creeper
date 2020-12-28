@@ -26,6 +26,7 @@ class Crowller {
     constructor(private url: string, private analyzer: Analyzer) {
         this.initSpiderProcess();
     }
+    
 }
 
 const url = 'http://www.66rpg.com';
